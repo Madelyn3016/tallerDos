@@ -72,8 +72,17 @@ switch (dia) {
     break;
 };
 
-//Parte 4: Ciclos
+//Parte 4: Ciclo for
 
 for (let i= 1; i <= 10; i++){
     console.log(i);
+};
+
+//Parte 5: Ciclo while
+
+let num = 8;
+
+while (num > 0){
+    console.log("Hello");
+    num--;
 };
