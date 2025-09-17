@@ -53,3 +53,23 @@ if (Edad >= 18) {
 
 //Parte 3: Switch
 
+let dia = "Martes";
+
+switch (dia) {
+    case "Lunes":
+        console.log("Es lunes, inicio de semana");
+    break;
+    case "Viernes":
+        console.log("Es viernes, casi fin de semana");
+    break;
+    case "Sabado":
+        console.log("Es sabado, fin de semana");
+    break;
+    case "Domingo":
+        console.log("Es domingo, fin de semana");
+    default:
+        console.log("Es un día entre semana");
+    break;
+};
+
+//Parte 4: 
