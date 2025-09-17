@@ -1,4 +1,4 @@
-// Parte 1: Variables
+// Parte 1: Variables. Ejercicio 1
 
 let nombre = "Madelyn";
 
@@ -10,7 +10,7 @@ console.log("Nombre:", nombre);
 console.log("Edad:", edad);
 console.log("Me gusta la programacion:", gustoProgramacion);
 
-// Parte 2: Diferencia entre var, let y const
+// Parte 1: Diferencia entre var, let y const. Ejercicio 2
 
 let ciudad = "Neiva";
 
@@ -27,10 +27,29 @@ ciudad = "Cali";
 console.log("Ciudad:", ciudad);
 
 //Cambio en const
-pais = "Colombia";
+//pais = "Colombia";
+// Error ya que con const es un valor fijo
 
 //Cambio var
-color = {negro};
 
-//Diferencia con let: con let permite cambiar el valor de la variable, con const no se puede ya que es una constante, el valor permanece igual
+{
+    color = "Azul";
+}
+
+console.log("Color nuevo:", color)
+
+//Diferencia con let: con let permite cambiar el valor de la variable, con const no se puede ya que es un valor fijo, el valor permanece igual. 
+
+//Parte 2: Condicionales
+
+let Edad = 16;
+
+if (Edad >= 18) {
+    console.log("Eres mayor de edad")
+
+}else{
+    console.log("Eres menor de edad")
+};
+
+//Parte 3: Switch
 
